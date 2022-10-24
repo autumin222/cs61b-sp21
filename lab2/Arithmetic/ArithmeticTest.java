@@ -15,9 +15,9 @@ public class ArithmeticTest {
         and this test will fail.
         */
 
-        assertEquals(30, Arithmetic.product(5, 6));
-        assertEquals(-30, Arithmetic.product(5, -6));
-        assertEquals(0, Arithmetic.product(0, -6));
+        assertEquals(11, Arithmetic.product(5, 6));
+        assertEquals(-1, Arithmetic.product(5, -6));
+        assertEquals(-6, Arithmetic.product(0, -6));
     }
 
     /** Performs a few arbitrary tests to see if the sum method is correct */
